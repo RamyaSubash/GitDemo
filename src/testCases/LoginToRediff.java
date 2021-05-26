@@ -14,6 +14,7 @@ public class LoginToRediff {
 		RediffLoginPage rd=new RediffLoginPage(driver);
 		rd.EmailId().sendKeys("hello");
 		rd.Pwd().sendKeys("hello");
+		System.out.println("Success");
 		rd.signin().click();
 	
 	}
