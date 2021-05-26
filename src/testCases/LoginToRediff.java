@@ -15,6 +15,7 @@ public class LoginToRediff {
 		rd.EmailId().sendKeys("hello");
 		rd.Pwd().sendKeys("hello");
 		System.out.println("Success");
+		System.out.println("Successfully created develop branch");
 		rd.signin().click();
 	
 	}
